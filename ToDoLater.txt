@@ -1,0 +1,10 @@
+Refaktorálás:
+UE 4.15 - Data Table Variable: Data Table a kártyapaklik Data Table-jeibõl.
+
+Known errors:
+Speed:
+1. Ha egyik  játékosnak sincs paklija, és az új lapok a középsõ paklik aljáról kerülnének felülre, a kliensen nem frissül megfelelõen a pakli.
+Megoldási ötletek:
+-Döntetlent bejelenteni
+-Eventek replikálását variálni, amíg a varázslat meg nem oldja.
+-Lehet ugyanaz az oka, mint az animációnak, akkor remélni kell, hogy késõbbi verzióban frissül, vagy valami.
